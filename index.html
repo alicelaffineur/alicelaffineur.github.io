@@ -1,1 +1,59 @@
-Hello World
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Alice Laffineur</title>
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div class="container-fluid">
+            <div class="row intro">
+                <div class="col-sm section-left">
+                    <div class="content">
+                        <p>Hi, I am</p>
+                        <h1 id="intro-slogan">Alice<br>Laffineur</h1>
+                        <hr>
+                        <p>Customer Success</p>
+
+                        <ul class="list-inline">
+                            <li class="list-inline-item">
+                                <a href="https://www.xing.com/profile/Alice_LAFFINEUR" class="btn btn-outline-light icon-circle text-center rounded-circle">
+                                    <i class="fa fa-xing" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="https://www.linkedin.com/in/alice-laffineur-b8a0b7156/" class="btn btn-outline-light icon-circle text-center rounded-circle">
+                                    <i class="fa fa-linkedin" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm section-right"></div>
+            </div>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="js/t.min.js"></script>
+
+        <script>
+            $(function () {
+                $('#intro-slogan').t({
+                    speed:150,
+                    caret:'\u005F',
+                    delay:1,
+                    blink:400,
+                    blink_perm:false,
+                    pause_on_click:false
+                });
+            });
+        </script>
+    </body>
+</html>
